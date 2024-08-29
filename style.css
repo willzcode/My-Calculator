@@ -9,10 +9,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 0 100px;
-    background-color: hwb(248 0% 94%);
+    padding: 0 80px;
+    background-color: hwb(248 0% 91%);
 }
 
+h1 {
+    font-size: clamp(1.5rem, 7vw, 3rem);
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
 
 .calculator {
     font-family: Arial, sans-serif;
